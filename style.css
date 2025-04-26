@@ -152,4 +152,48 @@ footer a:hover {
     text-decoration: underline;
 }
 
+#contact {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #333;
+}
+
+#contact form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contact input, 
+#contact textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 2px solid #ff8c42;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+#contact button {
+    background-color: #ff8c42;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contact button:hover {
+    background-color: #00ff37;
+}
+
 
